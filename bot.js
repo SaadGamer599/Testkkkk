@@ -207,8 +207,8 @@ client.on('message',async message => {
     
 if(message.author.bot) return;
 if(!credits[message.author.id]) credits[message.author.id] = {
-    credits: 9999999999999999
-};
+    credits: 50
+};k
 
 let userData = credits[message.author.id];
 let m = userData.credits;

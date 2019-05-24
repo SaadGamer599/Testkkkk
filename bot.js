@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+Tconst Discord = require('discord.js');
 const devs = ['389090790984515594'];
 const db = require('quick.db');
 const premium = ['470896018603376640']
@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['^^help','Type ^^help'];
+    var setGame = ['T!help','Type T!help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
